@@ -490,7 +490,7 @@
         </div>
         <div class="section-three">
           <p class="text-three">Subscribe</p>
-          <form class="footer-buttom">
+          <form class="footer-form">
             <label class="footer-label" for="footeruseremail"></label>
             <input
               type="email"
@@ -501,10 +501,12 @@
               required
             />
             <button type="submit" class="button footer-button">
-              <span class="submit-text"> Subscribe </span>
-              <svg class="footer-teleg" width="24" height="24">
-                <use href="./images/icons.svg#icon-Footer-telegram"></use>
-              </svg>
+              <div class="subscribe">
+                <span class="subscribe-text"> Subscribe </span>
+                <svg class="footer-teleg" width="24" height="24">
+                  <use href="./images/icons.svg#icon-Footer-telegram"></use>
+                </svg>
+              </div>
             </button>
           </form>
         </div>
@@ -572,7 +574,7 @@
             </div>
           </div>
 
-          <div class="form-area">
+          <div class="form-row">
             <label class="form-label" for="user-comment">Comment</label>
             <textarea
               class="form-textarea"
@@ -581,9 +583,8 @@
               name="user-comment"
             ></textarea>
           </div>
-        </form>
-        <div class="policy-checkbox">
-          <label class="policy" for="user-privacy">
+
+          <div class="policy-checkbox">
             <input
               id="user-privacy"
               type="checkbox"
@@ -591,14 +592,19 @@
               value="true"
               name="user-privacy"
             />
-            <span class="span"
-              >I accept the terms and conditions of the
-              <a class="policy-link" href="">Privacy Policy</a></span
+            <label class="policy" for="user-privacy">
+              <span class="checkbox-look">
+                <svg class="" width="10" height="10">
+                  <use href="./images/icons.svg#icon-Vector"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a class="policy-link" href="">Privacy Policy</a></label
             >
-          </label>
-        </div>
+          </div>
+        </form>
 
-        <button type="button" class="modal-button">
+        <button type="submit" class="button">
           <span class="submit-text"> Send </span>
         </button>
       </div>
