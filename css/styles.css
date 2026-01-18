@@ -567,6 +567,7 @@ img {
  line-height: 1.5;
  letter-spacing: 0.02em;
  color: #FFFFFF;
+ margin-bottom: 16px;
 }
 
 .footer-form {
@@ -757,6 +758,7 @@ img {
      display: flex;
      flex-direction: column;
      width: 100%;
+     gap: 8px;
  }
 
  /* EACH FIELD */
@@ -765,8 +767,6 @@ img {
      flex-direction: column;
      gap: 4px;
      position: relative;
-    margin-bottom: 8px;
-    
  }
 
  .form-label {
@@ -859,7 +859,7 @@ img {
     flex-direction: row;
     align-items: center;
     gap: 8px;
-    margin-bottom: 24px;
+    margin-bottom: 16px;
  }
 
  .checkbox {
